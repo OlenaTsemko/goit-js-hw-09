@@ -4,8 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "build": "babel src -d dist"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Olena Tsemko <elena.hlihan@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlenaTsemko/goit-js-hw-09.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/OlenaTsemko/goit-js-hw-09/issues"
+  },
+  "homepage": "https://github.com/OlenaTsemko/goit-js-hw-09#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash.throttle": "^4.1.1",
+    "validator": "^13.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.7"
+  }
 }
